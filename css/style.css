@@ -53,7 +53,7 @@ purple-button:#9467de
 .container-space{   
     background-color: #ffffff;
     padding: 15px 0 11px 50px;
-    border: 1px solid #d2d5d95b;
+    border: 1px outset #d2d5d95b;
     border-radius: 5px;
 }
 body{
