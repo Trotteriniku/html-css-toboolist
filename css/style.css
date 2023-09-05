@@ -92,6 +92,9 @@ section{
     color: #4b4d55;
 }
 
+section h3{
+    margin-bottom: 10px;
+}
 li{
     list-style: none;
     margin-bottom: 15px;
@@ -100,21 +103,21 @@ li{
 .cross-mark-li{
     color: #cf5a5a;
     font-size: 0.6em;
-    padding: 5px;
+    padding: 4px 6px;
     border: 1px solid #cf5a5a;
     border-radius: 100%;
     text-align: center;
-    margin: 0 0 10px 0;
+    margin: 0 3px 10px 0;
 }
 
 .check-mark-li{
     color: #5acf9e;
     font-size: 0.6em;
-    padding: 5px;
+    padding: 4px 6px;
     border: 1px solid #5acf9e;
     border-radius: 100%;
     text-align: center;
-    margin: 0 0 10px 0;
+    margin: 0 3px 10px 0;
 
 }
 
