@@ -22,20 +22,39 @@ purple-button:#9467de
 }
 
 .blue-buttons{
-    background-color: #77a5ec;
+    background-color: #4991e2;
     padding: 5px;
     color: white;
     
 }
 
-.purple-button{
+.purple-badge{
     background-color: #9467de;
 }
+
+.green-badge{
+    background-color: #87bfa8;
+}
+ .orange-badge{
+    background-color: #ffa641;
+ }
+ .pink-badge{
+    background-color: #ec46b5;
+ }
+ .lime-badge{
+    background-color: #cbe74b;
+ }
 /*UTILITY*/
 
 .container{
     width: 950px;
     margin: 40px auto 5px auto;
+}
+.container-space{   
+    background-color: #ffffff;
+    padding: 15px 0 11px 50px;
+    border: 1px solid #d2d5d95b;
+    border-radius: 5px;
 }
 body{
     font-family: "MHei PRC Xbold", sans-serif;
@@ -54,12 +73,6 @@ header img, h1{
 /*HEADER*/
 
 /*BUTTONS*/
-.button{   
-    background-color: #ffffff;
-    padding: 15px 0 11px 50px;
-    border: 1px solid #d2d5d95b;
-    border-radius: 5px;
-}
 #add-task-button{
     border-radius: 5px;
     border:1px solid #77a5ec ;
@@ -72,3 +85,44 @@ header img, h1{
     background-color: white;
 }
 /*BUTTONS*/
+
+/*LISTS*/
+section{
+    margin:35px auto 35px auto;
+    color: #4b4d55;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.cross-mark-li{
+    color: #cf5a5a;
+    font-size: 0.6em;
+    padding: 5px;
+    border: 1px solid #cf5a5a;
+    border-radius: 100%;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.check-mark-li{
+    color: #5acf9e;
+    font-size: 0.6em;
+    padding: 5px;
+    border: 1px solid #5acf9e;
+    border-radius: 100%;
+    text-align: center;
+    margin: 0 0 10px 0;
+
+}
+
+.badges{
+    font-size: 0.6em;
+    border-radius: 10px;
+    padding: 5px 8px;
+    color: white;
+    
+}
+/*LISTS*/
