@@ -15,9 +15,33 @@ purple-button:#9467de
     padding: 0;
     box-sizing:border-box;
 }
+/*UTILITY*/
+.grey-button{
+    background-color: #d2d5d9;
+}
+.blue-buttons{
+    background-color: #77a5ec;
+}
+.purple-button{
+    background-color: #9467de;
+}
+/*UTILITY*/
 
 body{
     font-family: "MHei PRC Xbold", sans-serif;
+    background-color: #f6f8f9;
 }
+
+/*HEADER*/
+header{
+    background-color: white;
+    padding: 10px 15px;
+}
+header img, h1{
+    vertical-align: middle;
+    display: inline-block;
+}
+/*HEADER*/
+
 
 
