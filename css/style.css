@@ -18,15 +18,25 @@ purple-button:#9467de
 /*UTILITY*/
 .grey-button{
     background-color: #d2d5d9;
+    color: #d2d5d9;
 }
+
 .blue-buttons{
     background-color: #77a5ec;
+    padding: 5px;
+    color: white;
+    
 }
+
 .purple-button{
     background-color: #9467de;
 }
 /*UTILITY*/
 
+.container{
+    width: 950px;
+    margin: 40px auto 5px auto;
+}
 body{
     font-family: "MHei PRC Xbold", sans-serif;
     background-color: #f6f8f9;
@@ -43,5 +53,22 @@ header img, h1{
 }
 /*HEADER*/
 
+/*BUTTONS*/
+.button{   
+    background-color: #ffffff;
+    padding: 15px 0 11px 50px;
+    border: 1px solid #d2d5d95b;
+    border-radius: 5px;
+}
+#add-task-button{
+    border-radius: 5px;
+    border:1px solid #77a5ec ;
+}
 
-
+#add-section-button{
+    border-radius: 5px;
+    border:1px solid #d2d5d9;
+    color: #d3d5d9;
+    background-color: white;
+}
+/*BUTTONS*/
