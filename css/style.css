@@ -1,0 +1,23 @@
+/*COLORS---
+
+grey-button: #d2d5d9
+blue-buttons: #77a5ec
+purple-button:#9467de
+              #87bfa8 
+              #daa248
+              #bd629e
+              #b3cc43
+
+---COLORS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "MHei PRC Xbold", sans-serif;
+}
+
+
